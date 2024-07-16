@@ -1,4 +1,4 @@
-package Lv0;
+package Lv1;
 
 public class prog134240 {
     public static void main(String[] args){
