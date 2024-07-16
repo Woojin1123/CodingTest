@@ -1,19 +1,7 @@
 package Lv1;
 
 public class prog134240 {
-    public static void main(String[] args){
-        int[] food = {1,3,4,6};
-        Solution s = new Solution();
-
-        System.out.println(s.solution(food));
-    }
-}
-
-
-
-
-class Solution {
-    public String solution(int[] food) {
+    public static String solution(int[] food) {
         String answer = "0";
         int idx = food.length-1;
         int fn = food.length-1;
@@ -30,4 +18,12 @@ class Solution {
         }
         return answer;
     }
+    public static void main(String[] args){
+        int[] food = {1,3,4,6};
+
+
+        System.out.println(solution(food));
+    }
 }
+
+
