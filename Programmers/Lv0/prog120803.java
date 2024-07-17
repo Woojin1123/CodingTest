@@ -1,6 +1,6 @@
 package Lv0;
 
-public class prog120803 {
+public class    prog120803 {
     public static int solution(int num1, int num2) {
         int answer = 0;
 
