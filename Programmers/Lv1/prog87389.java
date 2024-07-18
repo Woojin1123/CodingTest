@@ -1,4 +1,6 @@
 package Lv1;
+
+// 나머지가 1이 되는 가장 작은 약수를 구하는 문제
 class Solution {
     public int solution(int n) {
 
