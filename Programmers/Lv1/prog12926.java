@@ -1,6 +1,7 @@
 package Lv1;
 
-class Solution {
+
+public class prog12926 {
     public String solution(String s, int n) {
         String answer = "";
 
@@ -23,11 +24,6 @@ class Solution {
 
         return answer;
     }
-}
-public class prog12926 {
 
-    public static void main(String[] args){
-        Solution s = new Solution();
-        System.out.println(s.solution("AB",1));
-    }
+
 }

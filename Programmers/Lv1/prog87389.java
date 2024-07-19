@@ -1,7 +1,8 @@
 package Lv1;
 
 // 나머지가 1이 되는 가장 작은 약수를 구하는 문제
-class Solution {
+
+public class prog87389 {
     public int solution(int n) {
 
         int num = n-1;
@@ -18,10 +19,5 @@ class Solution {
 
         return answer;
     }
-}
-public class prog87389 {
 
-    public static void main(String[] args){
-        Solution s = new Solution();
-    }
 }

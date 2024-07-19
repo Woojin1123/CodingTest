@@ -3,7 +3,8 @@ package Lv1;
 
 
 import java.util.*;
-class Solution {
+
+public class prog138477 {
     public int[] solution(int k, int[] score) {
         int[] answer = new int[score.length];
         ArrayList<Integer> honor = new ArrayList<>();
@@ -17,10 +18,5 @@ class Solution {
             answer[i] = honor.get(0);
         }
         return answer;
-    }
-}
-public class prog138477 {
-    public static void main(){
-
     }
 }
