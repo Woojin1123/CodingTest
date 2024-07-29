@@ -2,8 +2,10 @@ package Lv1;
 
 public class MainTest {
     public static void main(String[] args){
-        prog12901 s = new prog12901();
-        String answer = s.solution(5,24);
+        prog42862 s = new prog42862();
+        int[] lost = {2,4,};
+        int[] reserve = {1,3,5};
+        int answer = s.solution(5,lost,reserve);
         System.out.println(answer);
     }
 }
