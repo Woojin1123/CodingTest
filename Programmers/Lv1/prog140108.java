@@ -30,8 +30,6 @@ public class prog140108 {
       }
 
     }
-
     return answer;
   }
-
 }
